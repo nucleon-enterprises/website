@@ -49,6 +49,16 @@ class App extends Component {
           
           <GridCell align={"middle"} span={2}><NCard  title={'Nucleon Edu'} buttonA={'Confira!'} media={''}></NCard></GridCell>
           <GridCell align={"middle"} span={2}><NCard  title={'Nucleon Build'}  buttonA={'Confira!'} ></NCard></GridCell>
+          <GridCell align={"middle"} span={2}><NCard  title={'Nucleon Cyber'}  buttonA={'Confira!'} ></NCard></GridCell>
+          <GridCell align={"middle"} span={2}><NCard  title={'Nucleon Cyber'}  buttonA={'Confira!'} ></NCard></GridCell>
+          <GridCell align={"middle"} span={2}><NCard  title={'Nucleon Edu'} buttonA={'Confira!'} media={''}></NCard></GridCell>
+          <GridCell align={"middle"} span={2}><NCard  title={'Nucleon Build'}  buttonA={'Confira!'} ></NCard></GridCell>
+          <GridCell align={"middle"} span={2}><NCard  title={'Nucleon Cyber'}  buttonA={'Confira!'} ></NCard></GridCell>
+          <GridCell align={"middle"} span={2}><NCard  title={'Nucleon Cyber'}  buttonA={'Confira!'} ></NCard></GridCell>
+          <GridCell align={"middle"} span={2}><NCard  title={'Nucleon Edu'} buttonA={'Confira!'} media={''}></NCard></GridCell>
+          <GridCell align={"middle"} span={2}><NCard  title={'Nucleon Build'}  buttonA={'Confira!'} ></NCard></GridCell>
+          <GridCell align={"middle"} span={2}><NCard  title={'Nucleon Cyber'}  buttonA={'Confira!'} ></NCard></GridCell>
+          <GridCell align={"middle"} span={2}><NCard  title={'Nucleon Cyber'}  buttonA={'Confira!'} ></NCard></GridCell>
         </Grid>
 
       </div>
