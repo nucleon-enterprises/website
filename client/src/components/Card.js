@@ -8,7 +8,7 @@ class NCard extends React.Component {
     }
     render(){
     return(
-        <Card style={{marginTop:'5vh',}}>
+        <Card style={{margin:'auto'}}>
         <CardPrimaryAction>
         <CardMedia
           sixteenByNine

@@ -44,11 +44,12 @@ class App extends Component {
       <div style={styles.container} className="App">
         <NTopBar></NTopBar>
 
-  <Grid>
-    
-  <GridCell span={6}><NCard title={'Nucleon Edu'} buttonA={'Confira!'} media={''}></NCard></GridCell>
-  <GridCell span={6}><NCard title={'Nucleon Build'}  buttonA={'Confira!'} ></NCard></GridCell>
-</Grid>
+        <Grid>
+          <GridCell span={1}></GridCell>
+          
+          <GridCell align={"middle"} span={5}><NCard  title={'Nucleon Edu'} buttonA={'Confira!'} media={''}></NCard></GridCell>
+          <GridCell align={"middle"} span={5}><NCard  title={'Nucleon Build'}  buttonA={'Confira!'} ></NCard></GridCell>
+        </Grid>
 
       </div>
     );

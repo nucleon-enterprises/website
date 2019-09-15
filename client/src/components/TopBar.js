@@ -13,10 +13,11 @@ export default class NTopBar extends Component {
           fontFamily:'',
           fontSize: '2.2rem',
       fontWeight: '1000',
+          position:"relative"
         },
         logo:{
-          height: '-webkit-fill-available',
-          width: '5vh',
+          height: '5.2vh',
+          width: '5.2vh',
         },
       };
     return (
