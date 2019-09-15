@@ -22,7 +22,8 @@
     "create-react-app": "^3.1.1",
     "express": "^4.17.1",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "rmwc": "^5.7.1"
   },
   "devDependencies": {
     "concurrently": "^3.5.0",

@@ -1,7 +1,16 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+// Hello World
+import {Grid, GridCell} from '@rmwc/grid';
+import '@material/layout-grid/dist/mdc.layout-grid.css';
+import NCard from './components/Card'
+import NTopBar from './components/TopBar'
+import '@rmwc/icon/icon.css';
+import '@material/top-app-bar/dist/mdc.top-app-bar.css';
+import '@material/card/dist/mdc.card.css';
+import '@material/button/dist/mdc.button.css';
+import '@material/icon-button/dist/mdc.icon-button.css';
+import { bindCallback } from 'rxjs';
 class App extends Component {
   state = {
     response: ''
@@ -21,13 +30,27 @@ class App extends Component {
     return body;
   };
 
+
   render() {
+    const styles={
+      container:{
+        backgroundColor:'black',
+        height: '100vh',
+        width: '100vw',
+      }
+    }
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">{this.state.response}</h1>
-        </header>
+      <div style={styles.container} className="App">
+        <NTopBar></NTopBar>
+
+  <Grid>
+    
+  <GridCell span={4}><NCard media={''}></NCard></GridCell>
+  <GridCell span={4}><NCard></NCard></GridCell>
+  <GridCell span={4}><NCard></NCard></GridCell>
+</Grid>
+
       </div>
     );
   }
