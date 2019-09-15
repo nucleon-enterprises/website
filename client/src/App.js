@@ -45,10 +45,10 @@ class App extends Component {
         <NTopBar></NTopBar>
 
         <Grid>
-          <GridCell span={1}></GridCell>
+          <GridCell span={4}></GridCell>
           
-          <GridCell align={"middle"} span={5}><NCard  title={'Nucleon Edu'} buttonA={'Confira!'} media={''}></NCard></GridCell>
-          <GridCell align={"middle"} span={5}><NCard  title={'Nucleon Build'}  buttonA={'Confira!'} ></NCard></GridCell>
+          <GridCell align={"middle"} span={2}><NCard  title={'Nucleon Edu'} buttonA={'Confira!'} media={''}></NCard></GridCell>
+          <GridCell align={"middle"} span={2}><NCard  title={'Nucleon Build'}  buttonA={'Confira!'} ></NCard></GridCell>
         </Grid>
 
       </div>

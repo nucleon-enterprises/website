@@ -10,9 +10,9 @@ export default class NTopBar extends Component {
           textAlign:'center',
           margin:'',
           backgroundColor:"black",
-          fontFamily:'',
+          fontFamily: '',
           fontSize: '2.2rem',
-      fontWeight: '1000',
+      fontWeight: '300',
           position:"relative"
         },
         logo:{
