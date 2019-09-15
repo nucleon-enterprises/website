@@ -46,9 +46,8 @@ class App extends Component {
 
   <Grid>
     
-  <GridCell span={4}><NCard media={''}></NCard></GridCell>
-  <GridCell span={4}><NCard></NCard></GridCell>
-  <GridCell span={4}><NCard></NCard></GridCell>
+  <GridCell span={6}><NCard title={'Nucleon Edu'} buttonA={'Confira!'} media={''}></NCard></GridCell>
+  <GridCell span={6}><NCard title={'Nucleon Build'}  buttonA={'Confira!'} ></NCard></GridCell>
 </Grid>
 
       </div>
